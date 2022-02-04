@@ -48,6 +48,6 @@ Usuarios.prototype.verificarPassword = function(password){
 }
 
 
-//Usuarios.hasMany(Proyectos);
+Usuarios.hasMany(Proyectos);
 
 module.exports = Usuarios;
